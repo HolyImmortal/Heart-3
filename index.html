@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hi ^^</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+        }
+        
+        #centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: purple;
+            font-weight: bold;
+            font-size: 65px;
+        }
+        
+        #top-right-text {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: purple;
+            font-weight: bold;
+        }
+        
+        .heart-sticker {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-image: url('https://media.tenor.com/c5DNXeMH-XkAAAAi/heart.gif');
+            background-size: cover;
+            animation: heartAnimation 2s infinite;
+        }
+        
+        .sticker-1 {
+            top: 45%;
+            left: 35%;
+        }
+        
+        .sticker-2 {
+            top: 45%;
+            left: 50%;
+        }
+        
+        .sticker-3 {
+            top: 45%;
+            left: 65%;
+        }
+                
+        .sticker-4 {
+            top: 55%;
+            left: 35%;
+        }
+                
+        .sticker-5 {
+            top: 55%;
+            left: 50%;
+        }
+                
+        .sticker-6 {
+            top: 55%;
+            left: 65%;
+        }
+                
+        .sticker-7 {
+            top: 40%;
+            left: 40%;
+        }
+        
+        .sticker-8 {
+            top: 40%;
+            left: 60%;
+        }
+        
+        .sticker-9 {
+            top: 60%;
+            left: 40%;
+        }
+        
+        .sticker-10 {
+            top: 60%;
+            left: 60%;
+        }
+        
+        /* Add more sticker classes and adjust the top/left positions as desired */
+        
+        @keyframes heartAnimation {
+            0% {
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                transform: scale(1.2) rotate(45deg);
+            }
+            100% {
+                transform: scale(1) rotate(0deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="centered-text">
+        <p><strong>Hi &lt;3</strong></p>
+    </div>
+    <div id="top-right-text">
+        <p><strong>Made by holyrae</strong></p>
+    </div>
+    <div class="heart-sticker sticker-1"></div>
+    <div class="heart-sticker sticker-3"></div>
+    <div class="heart-sticker sticker-4"></div>
+    <div class="heart-sticker sticker-6"></div>
+    <div class="heart-sticker sticker-7"></div>
+    <div class="heart-sticker sticker-8"></div>
+    <div class="heart-sticker sticker-9"></div>
+    <div class="heart-sticker sticker-10"></div>
+    <!-- Add more heart-sticker divs with different classes for additional stickers -->
+</body>
+</html>
